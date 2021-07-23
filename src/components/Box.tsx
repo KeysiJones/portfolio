@@ -4,11 +4,11 @@ function Box (
         text: string,
         bg: string,
         hoverBg: string,
-        style: string,
+        styles: string,
         link?: string
     }) {
     
-    const classe = `transition duration-150 transform hover:scale-110 ${props.bg} hover:${props.hoverBg} rounded-lg ${props.style} mx-auto`
+    const classe = `transition duration-150 transform hover:scale-110 ${props.bg} hover:${props.hoverBg} rounded-lg ${props.styles} mx-auto`
     
     const openLink = (link: string) => {
         if(props.link){
