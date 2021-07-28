@@ -32,20 +32,20 @@ function App() {
         <Box styles='mt-8 w-32 p-4' text='SQL' bg='bg-indigo-400' hoverBg='bg-indigo-400'/>
       </div>
       <h2 id='projects' className='text-6xl mt-28 text-green-400 text-center font-bold'>Projects</h2>
-      <div className='my-24 mx-14'>
-        <div className='flex border-4 rounded-xl border-green-400 mb-2'>
-          <a href='https://buscador-six.vercel.app/'><img alt='' src={imgBuscador} className='w-96 rounded-bl-xl rounded-tl-xl'/></a>
-          <div className='w-full text-center my-auto'>
-            <h2 className='mt-3 text-2xl text-gray-600 font-bold px-4'>Site de pesquisas</h2>
-            <p>Interface de um buscador personalizado</p>
-          </div>
+      <div className='mt-24 flex'>
+        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
+          <a href='https://buscador-six.vercel.app/'><img alt='' src={imgBuscador} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
-        <div className='flex border-4 rounded-xl border-green-400 mb-2'>
-          <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgCalculadora} className='w-96 rounded-bl-xl rounded-tl-xl'/></a>
-          <div className='w-full text-center'>
-            <h2 className='mt-3 text-2xl text-gray-600 font-bold px-4'>Calculadora de salários</h2>
-            <p>Essa calculadora transforma o salário de mêses para horas. Te ajuda com os freelas onde geralmente o valor é cobrado em horas.</p>
-          </div>
+        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
+          <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgCalculadora} className='rounded-bl-xl rounded-tl-xl'/></a>
+        </div>
+      </div>
+      <div className='my-4 flex'>
+        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
+          <a href='https://buscador-six.vercel.app/'><img alt='' src={imgBuscador} className='rounded-bl-xl rounded-tl-xl'/></a>
+        </div>
+        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
+          <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgCalculadora} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
       </div>
     </div>
