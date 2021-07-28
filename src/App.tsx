@@ -2,6 +2,7 @@ import './App.css';
 import Box from './components/Box'
 import imgBuscador from './images/buscador.png'
 import imgCalculadora from './images/calculadora.png'
+import imgEng4Devs from './images/english4developers.png'
 
 function App() {
   return (
@@ -42,10 +43,10 @@ function App() {
       </div>
       <div className='my-4 flex'>
         <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
-          <a href='https://buscador-six.vercel.app/'><img alt='' src={imgBuscador} className='rounded-bl-xl rounded-tl-xl'/></a>
+          <a href='https://english4developers.vercel.app/'><img alt='' src={imgEng4Devs} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
         <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
-          <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgCalculadora} className='rounded-bl-xl rounded-tl-xl'/></a>
+          <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgEng4Devs} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
       </div>
     </div>
