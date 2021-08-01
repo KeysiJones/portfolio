@@ -6,14 +6,14 @@ import imgEng4Devs from './images/english4developers.png'
 
 function App() {
   return (
-    <div>
+    <div className="bg-gray-500">
       <div className='text-center'>
-        <h1 className='text-6xl mt-12 text-green-400 font-bold'>Keysi Jones</h1>
+        <h1 className='text-6xl pt-12 text-green-400 font-bold'>Keysi Jones</h1>
         <p className='mt-3 text-2xl text-gray-500'>FullStack web developer</p>
       </div>
       <div className='flex'>
         <Box styles='mt-24 px-10 py-8' text='Projetos' link='#projects' bg='bg-yellow-400' hoverBg='bg-yellow-400'/>
-        <Box styles='mt-24 px-10 py-8' text='Github' link='https://github.com/KeysiJones' bg='bg-gray-500' hoverBg='bg-gray-600'/>
+        <Box styles='mt-24 px-10 py-8' text='Github' link='https://github.com/KeysiJones' bg='bg-gray-600' hoverBg='bg-gray-700'/>
         <Box styles='mt-24 px-10 py-8' text='Skills' link='#skills' bg='bg-green-400' hoverBg='bg-green-500'/>
         <Box styles='mt-24 px-10 py-8' text='LinkedIn' link='https://www.linkedin.com/in/keysijones/' bg='bg-blue-400' hoverBg='bg-blue-500'/>
       </div>
@@ -37,7 +37,7 @@ function App() {
         <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
           <a href='https://buscador-six.vercel.app/'><img alt='' src={imgBuscador} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
-        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12'>
+        <div className='flex border-4 rounded-xl border-green-400 my-8 mx-12 bg-white'>
           <a href='https://calculadora-salario.vercel.app/'><img alt='' src={imgCalculadora} className='rounded-bl-xl rounded-tl-xl'/></a>
         </div>
       </div>
