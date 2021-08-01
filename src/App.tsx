@@ -9,7 +9,7 @@ function App() {
     <div className="bg-gray-500">
       <div className='text-center'>
         <h1 className='text-6xl pt-12 text-green-400 font-bold'>Keysi Jones</h1>
-        <p className='mt-3 text-2xl text-gray-500'>FullStack web developer</p>
+        <p className='mt-3 text-2xl text-white'>FullStack web developer</p>
       </div>
       <div className='flex'>
         <Box styles='mt-24 px-10 py-8' text='Projetos' link='#projects' bg='bg-yellow-400' hoverBg='bg-yellow-400'/>
