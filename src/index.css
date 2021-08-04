@@ -4,14 +4,62 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+div#contato {
+  @apply flex;
+}
+
+div.skills-box {
+  @apply flex;
+}
+
+div.projects {
+  @apply flex border-4 rounded-xl border-green-400 my-8 mx-12 bg-white;
+}
+
+div.project-wrapper {
+  @apply flex;
+}
+
+@screen sm {
+  div#contato {
+    @apply grid;
+  }
+
+  div#contato > button {
+    @apply w-48;
+  }
+
+  div.project-wrapper {
+    @apply grid;
+  }
+
+  div.skills-box {
+    @apply grid;
+  }
+
+  div.projects {
+    @apply flex border-4 rounded-xl border-green-400 my-8 mx-4;
+  }
+}
+
+@screen lg {
+  div#contato > button {
+    @apply w-48;
+  }
+
+  div.skills-box > button {
+    @apply w-48 p-6 mt-8;
+  }
 }
