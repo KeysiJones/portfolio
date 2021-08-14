@@ -3,6 +3,8 @@ import Box from "./components/Box";
 import imgBuscador from "./images/buscador.png";
 import imgCalculadora from "./images/calculadora.png";
 import imgEng4Devs from "./images/english4developers.png";
+import blog from "./images/blog.png";
+import instituto from "./images/instituto.png";
 
 function App() {
   return (
@@ -138,10 +140,15 @@ function App() {
           </a>
         </div>
         <div className="projects">
-          <a href="https://calculadora-salario.vercel.app/">
+          <a href="https://keysijones-blog.vercel.app/">
+            <img alt="" src={blog} className="rounded-bl-xl rounded-tl-xl" />
+          </a>
+        </div>
+        <div className="projects">
+          <a href="https://instituto-helper.netlify.app//">
             <img
               alt=""
-              src={imgEng4Devs}
+              src={instituto}
               className="rounded-bl-xl rounded-tl-xl"
             />
           </a>

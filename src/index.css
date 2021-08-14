@@ -25,7 +25,7 @@ div.skills-box {
 }
 
 div.projects {
-  @apply flex border-4 rounded-xl border-green-400 my-8 mx-12 bg-white;
+  @apply flex border-4 rounded-xl my-8 mx-12 bg-white;
 }
 
 div.project-wrapper {
@@ -50,7 +50,7 @@ div.project-wrapper {
   }
 
   div.projects {
-    @apply flex border-4 rounded-xl border-green-400 my-8 mx-4;
+    @apply flex border-4 rounded-xl my-8 mx-4;
   }
 }
 
